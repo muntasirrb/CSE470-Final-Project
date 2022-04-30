@@ -1,0 +1,73 @@
+.all-movies-list {
+	justify-content: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
+	display: flex;
+	margin: auto;
+	width: 90vw;
+}
+
+.search-input {
+	padding: 5px;
+	outline: thin;
+	border: 1px solid gray;
+	text-transform: uppercase;
+	border-radius: 20px;
+	background-color: #f2f2f2 !important;
+}
+input {
+	text-indent: 10px;
+	font-weight: 100;
+}
+
+.addbutton:hover {
+	transform: skew(0deg, 10deg);
+}
+
+.genres {
+	justify-content: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 10px;
+	display: flex;
+	margin: 0;
+	justify-content: space-between;
+	width: 100% !important;
+	height: 100px;
+}
+.genres-list-input {
+	height: 30px;
+	margin-left: 105px;
+	max-width: 300px !important;
+}
+
+.filterGenre {
+	align-items: center;
+	cursor: pointer;
+}
+.movies-list {
+	align-items: center;
+	cursor: pointer;
+}
+.genres-list span {
+	text-align: center;
+	float: left;
+	font-weight: 500;
+	font-size: 15px;
+	padding: 5px;
+	text-transform: uppercase;
+	color: blue !important;
+}
+.genres-list span:hover {
+	color: green !important;
+}
+.movies-list-header {
+	float: right;
+	margin-right: 105px;
+}
+.search-input {
+	max-width: 300px !important;
+	border-radius: 5px !important;
+	margin: 0;
+	height: 30px;
+}
